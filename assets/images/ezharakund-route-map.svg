@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 90 880 930" role="img" aria-labelledby="title description">
+  <title id="title">Route map to Ezharakund Waterfalls</title>
+  <desc id="description">A sketch route map linking Kannur, Taliparamba, Alakode, Kudiyanmala, Paithalmala and Ezharakund Waterfalls, with other nearby towns.</desc>
+  <defs>
+    <style>
+      .bg{fill:#fbfaf5}.accent{fill:#e83c39}.road{fill:none;stroke:#172422;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.node{fill:#e83c39;stroke:#fff;stroke-width:2.5}.label{fill:#172422;font-family:Arial,sans-serif;font-size:14px;font-weight:700;paint-order:stroke;stroke:#fbfaf5;stroke-width:4px;stroke-linejoin:round}.road-label{fill:#344240;font-family:Arial,sans-serif;font-size:13px;font-style:italic;font-weight:600;paint-order:stroke;stroke:#fbfaf5;stroke-width:4px;stroke-linejoin:round}.falls{fill:#e83c39;font-family:Arial,sans-serif;font-size:17px;font-weight:800;paint-order:stroke;stroke:#fbfaf5;stroke-width:4px;stroke-linejoin:round}.route{fill:none;stroke:#e83c39;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;opacity:.22}
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="1050" rx="8"/>
+  <path class="route" d="M130 930L160 770L190 640L200 550L240 460L360 470L340 380L280 260L460 275L630 290L690 470"/>
+  <g class="road">
+    <path d="M130 930L160 770L190 640L200 550L240 460L360 470L340 380L280 260L260 130"/>
+    <path d="M280 260L460 275L630 290"/><path d="M340 380L440 340L630 290"/><path d="M630 290L690 470L900 310"/>
+    <path d="M690 470L580 530L480 630L480 730L500 810L390 870"/><path d="M500 810L630 890L770 940L760 990"/>
+    <path d="M580 530L710 570L710 670L740 720"/>
+  </g>
+  <g class="node"><circle cx="130" cy="930" r="6"/><circle cx="160" cy="770" r="6"/><circle cx="190" cy="640" r="6"/><circle cx="200" cy="550" r="6"/><circle cx="240" cy="460" r="6"/><circle cx="360" cy="470" r="6"/><circle cx="340" cy="380" r="6"/><circle cx="280" cy="260" r="6"/><circle cx="260" cy="130" r="6"/><circle cx="460" cy="275" r="6"/><circle cx="630" cy="290" r="6"/><circle cx="440" cy="340" r="6"/><circle cx="690" cy="470" r="7"/><circle cx="900" cy="310" r="6"/><circle cx="580" cy="530" r="6"/><circle cx="710" cy="570" r="6"/><circle cx="710" cy="670" r="6"/><circle cx="740" cy="720" r="6"/><circle cx="480" cy="630" r="6"/><circle cx="480" cy="730" r="6"/><circle cx="500" cy="810" r="6"/><circle cx="390" cy="870" r="6"/><circle cx="630" cy="890" r="6"/><circle cx="770" cy="940" r="6"/><circle cx="760" cy="990" r="6"/></g>
+  <path d="M690 470 Q705 452 720 435" fill="none" stroke="#e83c39" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(706 417)"><path d="M14 0C4 0-4 8-4 18c0 14 18 30 18 30s18-16 18-30C32 8 24 0 14 0z" class="accent" stroke="#fff" stroke-width="3"/><circle cx="14" cy="18" r="5" fill="#fff"/></g>
+  <text class="falls" x="740" y="435">Ezharakund</text><text class="falls" x="740" y="456">Waterfalls</text>
+  <g class="label"><text x="145" y="948">Kannur</text><text x="175" y="782">Puthiyatheru</text><text x="205" y="646">Taliparamba</text><text x="215" y="555">Nadukani</text><text x="155" y="463">Oduvally</text><text x="375" y="489">Naduvil</text><text x="365" y="390">Karuvanchal</text><text x="295" y="264">Alakode</text><text x="275" y="135">Cherupuzha</text><text x="470" y="265">Pathannapra</text><text x="645" y="290">Thurumbi</text><text x="452" y="335">Vellad</text><text x="493" y="378">Palakkayamthattu</text><text x="704" y="504">Kudiyanmala</text><text x="878" y="295">Paithalmala</text><text x="595" y="535">Chemperi</text><text x="725" y="575">Vimal Jyothi</text><text x="725" y="675">Ulikkal</text><text x="755" y="725">Iritty</text><text x="495" y="635">Irikkur</text><text x="495" y="735">Mattannur</text><text x="515" y="825">Kuthuparamba</text><text x="330" y="890">Thalassery</text><text x="645" y="910">Panoor</text><text x="785" y="945">Kuttiyadi</text><text x="780" y="1000">Kozhikode</text></g>
+  <text class="road-label" x="274" y="390" transform="rotate(-31 274 390)">Karuvanchal</text><text class="road-label" x="390" y="581" transform="rotate(-65 390 581)">Sreekandapuram</text>
+</svg>

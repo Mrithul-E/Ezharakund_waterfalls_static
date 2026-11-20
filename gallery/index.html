@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Watch authentic videos and explore photos of Ezharakund Waterfalls, Kannur, Kerala.">
+    <title>Gallery & Video Tour | Ezharakund Waterfalls</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <style>
+      .gallery-hero {
+        background: linear-gradient(180deg, #061c1d 0%, #0d2b29 100%);
+        padding: 5rem 0 3rem;
+        color: #fff;
+      }
+      .video-theater {
+        background: #000;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 25px 60px rgba(0,0,0,0.45);
+        position: relative;
+        border: 1px solid rgba(255,255,255,0.1);
+      }
+      .video-player {
+        width: 100%;
+        max-height: 720px;
+        display: block;
+        background: #000;
+        outline: none;
+      }
+      .video-badge {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background: rgba(0,0,0,0.65);
+        backdrop-filter: blur(8px);
+        color: #fff;
+        font: 500 0.7rem 'DM Mono', monospace;
+        letter-spacing: 0.1em;
+        padding: 0.4rem 0.8rem;
+        border-radius: 50px;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        z-index: 10;
+        border: 1px solid rgba(255,255,255,0.15);
+      }
+      .video-badge i { color: #f87171; animation: pulse 1.8s infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+      .photo-card {
+        border-radius: 12px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 4/3;
+        background: #0a1f20;
+      }
+      .photo-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+      .photo-card:hover img {
+        transform: scale(1.05);
+      }
+      .photo-card figcaption {
+        position: absolute;
+        inset: auto 0 0 0;
+        padding: 1.5rem 1rem 0.8rem;
+        background: linear-gradient(180deg, transparent, rgba(0,0,0,0.85));
+        color: #fff;
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="gallery-hero">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 mb-4">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="../" aria-label="Ezharakund Waterfalls home">
+            <span class="brand-mark"><i class="bi bi-water"></i></span>
+            <span>EZHARAKUND <em>WATERFALLS</em></span>
+          </a>
+          <div class="ms-auto d-flex align-items-center gap-3">
+            <a href="../" class="btn btn-outline-light btn-sm"><i class="bi bi-arrow-left"></i> Back to Home</a>
+            <a href="../#book" class="btn btn-coral btn-sm">Book a visit</a>
+          </div>
+        </nav>
+        <div class="row align-items-end g-4 pt-3">
+          <div class="col-lg-7">
+            <p class="eyebrow light"><span></span> Visual Experience</p>
+            <h1 class="display-4 fw-bold">Feel the rush.<br>See the seven pools.</h1>
+          </div>
+          <div class="col-lg-5">
+            <p class="text-light opacity-75 mb-0">Experience the natural cascade and peaceful forest trails of Ezharakund Waterfalls in North Malabar, captured live on location.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5 bg-light">
+      <div class="container">
+        <!-- Video Archive Section -->
+        <div class="mb-5 pb-2">
+          <div class="d-flex justify-content-between align-items-end mb-4">
+            <div>
+              <p class="eyebrow"><span></span> Captured on location</p>
+              <h2 class="h3 fw-bold mb-0">Videos from Ezharakund</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <!-- Video 1: Waterfall -->
+            <div class="col-lg-6">
+              <div class="mb-3 d-flex justify-content-between align-items-center">
+                <div>
+                  <span class="badge bg-dark text-uppercase px-3 py-2 mb-2">Featured Cascade</span>
+                  <h3 class="h5 fw-bold mb-0">Ezharakund Falls in Full Flow</h3>
+                </div>
+                <a href="../assets/videos/ezharakund-falls.mp4" download class="btn btn-outline-dark btn-sm d-none d-md-inline-flex align-items-center gap-1" style="border-radius: 0;">
+                  <i class="bi bi-download"></i> Download
+                </a>
+              </div>
+              <div class="video-theater">
+                <div class="video-badge">
+                  <i class="bi bi-circle-fill"></i> EXCLUSIVE TRAIL FOOTAGE
+                </div>
+                <video class="video-player" controls preload="metadata" poster="../assets/images/ezharakund-hero.jpg">
+                  <source src="../assets/videos/ezharakund-falls.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+
+            <!-- Video 2: Kayaking -->
+            <div class="col-lg-6">
+              <div class="mb-3 d-flex justify-content-between align-items-center">
+                <div>
+                  <span class="badge bg-dark text-uppercase px-3 py-2 mb-2">On-Site Activity</span>
+                  <h3 class="h5 fw-bold mb-0">River Pool Kayaking</h3>
+                </div>
+                <a href="../assets/videos/kayaking.mp4" download class="btn btn-outline-dark btn-sm d-none d-md-inline-flex align-items-center gap-1" style="border-radius: 0;">
+                  <i class="bi bi-download"></i> Download
+                </a>
+              </div>
+              <div class="video-theater">
+                <div class="video-badge">
+                  <i class="bi bi-circle-fill"></i> KAYAKING FOOTAGE
+                </div>
+                <video class="video-player" controls preload="metadata">
+                  <source src="../assets/videos/kayaking.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 p-3 bg-white border d-flex flex-wrap justify-content-between align-items-center gap-2">
+            <div class="small text-muted font-monospace"><strong class="text-dark">KAYAKING PRICING:</strong> Activity is free for all visitors. Optional 5-minute video &amp; photo package is &#8377;100.</div>
+            <a href="https://wa.me/916282658284?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20visiting%20Ezharakund%20Waterfalls%20and%20Kayaking" target="_blank" rel="noopener" class="btn btn-sm btn-dark" style="border-radius: 0;">
+              Inquire on WhatsApp <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Photo Gallery Grid -->
+        <div class="pt-4">
+          <div class="mb-4">
+            <p class="eyebrow"><span></span> Captured on Trail</p>
+            <h2 class="h3 fw-bold">Moments from Ezharakund Waterfalls</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <figure class="photo-card">
+                <img src="../assets/images/ezharakund-hero.jpg" alt="Main cascade flow framed by tropical greenery at Ezharakund Waterfalls">
+                <figcaption>The Main Cascade Flow</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-4">
+              <figure class="photo-card">
+                <img src="../assets/images/gallery-rock-basin.jpg" alt="Waterfall rushing down into the rocky pool basin">
+                <figcaption>Cascading Rock Pool Basin</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-4">
+              <figure class="photo-card">
+                <img src="../assets/images/gallery-natural-pool.jpg" alt="Visitors swimming safely in the natural forest pool with life jackets">
+                <figcaption>Natural Forest Swimming Pool</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action Banner -->
+        <div class="bg-dark text-white p-5 rounded-4 mt-5 text-center position-relative overflow-hidden">
+          <h2 class="display-6 fw-bold mb-3">Ready to experience this in person?</h2>
+          <p class="text-light opacity-75 mb-4 mx-auto" style="max-width: 550px;">Join our guided nature trek through the seven natural pools of Ezharakund Waterfalls.</p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <a href="../#book" class="btn btn-coral btn-lg">Plan your visit</a>
+            <a href="https://wa.me/916282658284?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20visiting%20Ezharakund%20Waterfalls" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg d-inline-flex align-items-center gap-2">
+              <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <a class="navbar-brand d-flex align-items-center gap-2 mb-3" href="../">
+              <span class="brand-mark"><i class="bi bi-water"></i></span>
+              <span>EZHARAKUND <em>WATERFALLS</em></span>
+            </a>
+            <p>A beautiful series of seven natural pools at Ezharakund Waterfalls, Kannur.<br>Please visit with care and keep nature clean.</p>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h4>Quick Links</h4>
+            <a href="../">Home</a>
+            <a href="./">Video & Photo Gallery</a>
+            <a href="../#book">Plan a visit</a>
+            <a href="../#guides">Guide Aayush Vivek</a>
+          </div>
+          <div class="col-6 col-lg-4">
+            <h4>Direct Contact</h4>
+            <a href="tel:+916282658284"><i class="bi bi-telephone"></i> +91 6282658284</a>
+            <a href="https://wa.me/916282658284" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+            <a href="https://instagram.com/ezharakund_waterfalls2k26" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> @ezharakund_waterfalls2k26</a>
+            <a href="mailto:ezharakundwaterfall@gmail.com"><i class="bi bi-envelope"></i> ezharakundwaterfall@gmail.com</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 EZHARAKUND WATERFALLS</span>
+          <span>MADE FOR RESPONSIBLE EXPLORERS</span>
+          <span>PRIVACY / TERMS</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
