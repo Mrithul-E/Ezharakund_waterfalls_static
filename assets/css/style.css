@@ -71,8 +71,11 @@ h2 { font-size:clamp(3rem,5vw,5.3rem); font-weight:700; }
   .visit-section { height:auto; min-height:480px; padding:4rem 0; }
   .guide-card img { height:320px; }
   .footer { padding:3.5rem 0 1.5rem; }
-  .footer-bottom span:last-child { display:none; }
+  .footer-bottom { flex-wrap:wrap; gap:.75rem; }
 }
+
+.dev-link { color:#f4d37f!important; text-decoration:underline!important; font-weight:700; transition:color .2s; }
+.dev-link:hover { color:#fff!important; }
 
 /* Booking Closed State */
 .booking-closed-wrap { position: relative; }
