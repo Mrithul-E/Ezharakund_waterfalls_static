@@ -7,15 +7,15 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://ezharakundwaterfalls.in/assets/images/ezharakund-hero.jpg</image:loc>
+      <image:loc>https://ezharakundwaterfalls.in/assets/images/ezharakund-hero.webp</image:loc>
       <image:title>Ezharakund Waterfalls Main Cascade, Kannur</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://ezharakundwaterfalls.in/assets/images/gallery-natural-pool.jpg</image:loc>
+      <image:loc>https://ezharakundwaterfalls.in/assets/images/gallery-natural-pool.webp</image:loc>
       <image:title>Seven Natural Pools of Ezharakund</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://ezharakundwaterfalls.in/assets/images/gallery-rock-basin.jpg</image:loc>
+      <image:loc>https://ezharakundwaterfalls.in/assets/images/gallery-rock-basin.webp</image:loc>
       <image:title>Ezharakund Rock Basin</image:title>
     </image:image>
     <image:image>
@@ -29,7 +29,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://ezharakundwaterfalls.in/assets/images/ezharakund-hero.jpg</image:loc>
+      <image:loc>https://ezharakundwaterfalls.in/assets/images/ezharakund-hero.webp</image:loc>
       <image:title>Ezharakund Waterfalls Video and Photo Gallery</image:title>
     </image:image>
   </url>

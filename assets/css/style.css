@@ -4,7 +4,7 @@ html { scroll-behavior:smooth; }
 body { margin:0; color:var(--ink); background:var(--paper); font-family:Manrope, sans-serif; overflow-x:hidden; }
 a { color:inherit; text-decoration:none; }
 .section-pad { padding:7.5rem 0; }
-.hero { min-height:790px; height:100vh; position:relative; color:#fff; background:linear-gradient(90deg,rgba(5,26,29,.84) 0%,rgba(8,39,39,.46) 53%,rgba(5,27,31,.2) 100%), url('../images/ezharakund-hero.jpg') center/cover; overflow:hidden; }
+.hero { min-height:790px; height:100vh; position:relative; color:#fff; background:linear-gradient(90deg,rgba(5,26,29,.84) 0%,rgba(8,39,39,.46) 53%,rgba(5,27,31,.2) 100%), url('../images/ezharakund-hero.webp') center/cover; overflow:hidden; }
 .hero:after { content:""; position:absolute; inset:auto 0 0; height:35%; background:linear-gradient(transparent,rgba(4,22,24,.72)); pointer-events:none; }
 .kasavu-line { position:absolute; z-index:4; left:0; right:0; bottom:0; height:10px; background:repeating-linear-gradient(90deg,#d8ab48 0 28px,#f7edd5 28px 38px,#c88a24 38px 42px,#f7edd5 42px 52px); }
 .navbar { position:relative; z-index:1030; } .hero-content, .hero-bottom { position:relative; z-index:2; }
