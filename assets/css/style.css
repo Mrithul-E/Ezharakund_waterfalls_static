@@ -74,8 +74,8 @@ h2 { font-size:clamp(3rem,5vw,5.3rem); font-weight:700; }
   .footer-bottom { flex-wrap:wrap; gap:.75rem; }
 }
 
-.dev-link { color:#f4d37f!important; text-decoration:underline!important; font-weight:700; transition:color .2s; }
-.dev-link:hover { color:#fff!important; }
+.footer-bottom a { color:inherit; text-decoration:none; border-bottom:1px dotted rgba(126,159,150,.35); transition:color .2s, border-color .2s; }
+.footer-bottom a:hover { color:#dce8e2; border-bottom-color:#dce8e2; }
 
 /* Booking Closed State */
 .booking-closed-wrap { position: relative; }
@@ -103,20 +103,4 @@ h2 { font-size:clamp(3rem,5vw,5.3rem); font-weight:700; }
   .editorial-media-frame { border-width: 4px; box-shadow: none; }
   .editorial-media-frame figcaption { font-size: .5rem; padding: .55rem .4rem; }
 }
-
-/* Visitor Essentials & Facts Grid */
-.essentials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; }
-.essential-item { background: #fff; padding: 1.5rem; border: 1px solid var(--line); border-left: 4px solid var(--moss); }
-.essential-item i { font-size: 1.4rem; color: var(--coral); margin-bottom: .6rem; display: block; }
-.essential-item h4 { font: 700 .75rem "DM Mono", monospace; letter-spacing: .08em; text-transform: uppercase; margin-bottom: .4rem; color: #4b615c; }
-.essential-item p { margin: 0; font-size: .95rem; font-weight: 700; color: var(--ink); line-height: 1.4; }
-.essential-item small { display: block; font-size: .75rem; color: #697d77; margin-top: .3rem; font-weight: 500; }
-
-/* FAQ Accordion */
-.faq-section { background: #fdfbf7; }
-.faq-accordion .accordion-item { border: 1px solid var(--line); background: #fff; margin-bottom: 1rem; border-radius: 0 !important; }
-.faq-accordion .accordion-button { font-family: "Manrope", sans-serif; font-size: 1.02rem; font-weight: 700; color: var(--ink); background: #fff; padding: 1.25rem 1.5rem; border-radius: 0 !important; box-shadow: none; }
-.faq-accordion .accordion-button:not(.collapsed) { background: #f6f3eb; color: var(--coral); }
-.faq-accordion .accordion-button::after { filter: grayscale(1); }
-.faq-accordion .accordion-body { font-size: .92rem; line-height: 1.7; color: #4f615b; padding: 1rem 1.5rem 1.4rem; border-top: 1px solid var(--line); }
 
